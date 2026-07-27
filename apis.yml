@@ -1,9 +1,25 @@
 aid: forged-sports-inc
 name: Forged Sports, Inc.
-description: Forged Sports, Inc. is a company surfaced as a portfolio company of 500-global and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Forged Sports, Inc. is a Palo Alto, California software company (founded May 2024) building
+  a Venue Management System (VMS) for commercial indoor golf and golf-simulator venues. The platform
+  consolidates bay operations, bookings, player profiles, waivers, leagues, business intelligence, and
+  third-party integrations into a single command center — offering live bay monitoring, reservation and
+  booking management, player-retention analytics, game-popularity insight, and bay-utilization reporting.
+  Forged Sports also develops gamified indoor-golf experiences on top of launch-monitor technologies.
+  Backed by 500 Global. No public developer API, documentation, or SDK surface is currently published.
 url: https://raw.githubusercontent.com/api-evangelist/forged-sports-inc/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://forgedsports.co/favicon.ico?favicon.7bde21e6.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,9 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Golf
+- Sports
+- Venue Management
+- Business Intelligence
+- Booking
+- Analytics
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +45,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/forged-sports-inc-domain-security.yml
 - type: Website
   url: https://forgedsports.co
+- type: Support
+  url: https://forgedsports.co/support
+- type: TermsOfService
+  url: https://forgedsports.co/terms
+- type: PrivacyPolicy
+  url: https://forgedsports.co/privacy
+- type: GitHubOrganization
+  url: https://github.com/forgedsports
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

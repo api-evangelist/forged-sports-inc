@@ -1,0 +1,16 @@
+generated: '2026-07-19'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: forgedsports.co
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Oct  2 18:30:07 2026 GMT
+  hsts: false
+domains:
+- domain: forgedsports.co
+  dnssec: true
+  caa:
+  - 7ksjalbg.up.railway.app.
+  spf: false
+  dmarc: false
